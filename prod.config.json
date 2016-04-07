@@ -1,0 +1,17 @@
+﻿{
+    "certificate": {
+        "key": "certificates/jsreport.net.key",    
+        "cert": "certificates/jsreport.net.cert"
+    },
+    "connectionString": { "name": "fs" },
+    "httpsPort": 443,
+    "blobStorage": "fileSystem",
+    "phantom": {
+        "numberOfWorkers" : 2,
+        "timeout": 180000
+    },
+    "tasks": {
+        "numberOfWorkers" : 2,
+        "timeout": 10000
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "engine": "handlebars",
+    "recipe": "phantom-pdf",
+    "phantom": {
+        "orientation": "portrait",
+        "format": "A4"
+    },
+    "scripts": [],
+    "data": {
+        "shortid": "41Evxvrcl"
+    },
+    "resources": {
+        "items": []
+    },
+    "shortid": "NkTEJPr9g",
+    "modificationDate": {
+        "$$date": 1455743006433
+    },
+    "_id": "15sTw1AESr3s37pT",
+    "version": null
+}

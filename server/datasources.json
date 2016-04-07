@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mfm_mysql": {
+    "host": "0.0.0.0",
+    "port": 3306,
+    "url": "0.0.0.0",
+    "database": "mfm-db",
+    "password": "123",
+    "name": "mfm_mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

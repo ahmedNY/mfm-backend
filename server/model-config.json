@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Expanses": {
+    "dataSource": "mfm_mysql",
+    "public": true
+  },
+  "Realstate": {
+    "dataSource": "mfm_mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Renewal": {
+    "dataSource": "mfm_mysql",
+    "public": true
+  },
+  "People": {
+    "dataSource": "mfm_mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Contract": {
+    "dataSource": "mfm_mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  }
+}
