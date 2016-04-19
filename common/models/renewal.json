@@ -59,6 +59,22 @@
       },
       "_selectable": false
     },
+    "startDate": {
+      "type": "Date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "startDate",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
     "renewalDate": {
       "type": "Date",
       "required": true,
@@ -109,7 +125,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "contract": {
+      "type": "belongsTo",
+      "model": "Contract",
+      "foreignKey": "contractID"
+    }
+    },
   "acls": [],
   "methods": {}
 }
