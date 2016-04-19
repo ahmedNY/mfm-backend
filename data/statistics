@@ -12,6 +12,7 @@
 {"fiveMinuteDate":{"$$date":1455195000000},"amount":6,"_id":"SJJ6FLwtlratTlTD","success":6}
 {"fiveMinuteDate":{"$$date":1455189000000},"amount":4,"_id":"SaH2Ti4ajtPNMmt4","success":4}
 {"fiveMinuteDate":{"$$date":1455797700000},"amount":1,"_id":"WFBRROjqaNliH2o1","success":1}
+{"fiveMinuteDate":{"$$date":1458234600000},"amount":1,"_id":"WWnZPvegaRDA8uGk","success":1}
 {"fiveMinuteDate":{"$$date":1455193800000},"amount":4,"_id":"YJlK06OrEAVyRWH0","success":4}
 {"fiveMinuteDate":{"$$date":1456237200000},"amount":1,"_id":"Z2zXyZndeJHfdegk","success":1}
 {"fiveMinuteDate":{"$$date":1455193500000},"amount":1,"_id":"ZO6oa6IpO6N9f2uB","success":1}
@@ -34,5 +35,3 @@
 {"fiveMinuteDate":{"$$date":1455186300000},"amount":6,"_id":"v4GIwAz86PThrLMm","success":6}
 {"fiveMinuteDate":{"$$date":1455197400000},"amount":3,"_id":"vRt6VIvZ32Zr93aF","success":3}
 {"fiveMinuteDate":{"$$date":1455201600000},"amount":1,"_id":"wwOHgy0N1a8nRRAF","success":1}
-{"fiveMinuteDate":{"$$date":1458234600000},"amount":1,"_id":"WWnZPvegaRDA8uGk"}
-{"fiveMinuteDate":{"$$date":1458234600000},"amount":1,"_id":"WWnZPvegaRDA8uGk","success":1}
