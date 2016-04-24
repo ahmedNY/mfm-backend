@@ -131,7 +131,7 @@
       "model": "Contract",
       "foreignKey": "contractID"
     }
-    },
+  },
   "acls": [],
   "methods": {}
 }

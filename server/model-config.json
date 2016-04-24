@@ -32,10 +32,6 @@
     "dataSource": "db",
     "public": false
   },
-  "Expanses": {
-    "dataSource": "mfm_mysql",
-    "public": true
-  },
   "Realstate": {
     "dataSource": "mfm_mysql",
     "public": true,
@@ -53,6 +49,12 @@
     "$resolved": true
   },
   "Contract": {
+    "dataSource": "mfm_mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Expenses": {
     "dataSource": "mfm_mysql",
     "public": true,
     "$promise": {},
