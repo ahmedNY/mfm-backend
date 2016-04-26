@@ -125,7 +125,7 @@
     "id": {
       "type": "Number",
       "id": true,
-      "required": true,
+      "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
@@ -139,7 +139,7 @@
       },
       "_selectable": false
     },
-    "realstateid": {
+    "realstateID": {
       "type": "Number",
       "required": true,
       "length": null,
